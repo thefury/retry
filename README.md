@@ -14,7 +14,7 @@ $ ./retry.py [-i <interval>] [-t <timeout>] -- command
 options:
   -h: display this help message
   -i, --interval: the interval between attempts in seconds (default 60s)
-  -d --duration: the timeout in seconds (default 3600s)
+  -d --timeout: the timeout in seconds (default 3600s)
   
 examples:
 # retry a command every second for 10 minutes
