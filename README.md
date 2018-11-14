@@ -9,7 +9,7 @@ Just copy the script and run it. Nothing too fancy here.
 ## Usage
 
 ```
-$ ./retry.py [-i <interval>] [-t <timeout>] -- command
+$ ./retry.py [options] -- command
 
 options:
   -h: display this help message

@@ -12,16 +12,17 @@ def print_usage():
     print "usage: retry.py [options] -- command"
 
 def print_help():
-    print_usage()
-
     print '''
-
-    description: retry commands until they succeed or timeout
+    usage: 
+    retry.py [options] -- command
+    
+    description: 
+    retry commands until they succeed or timeout
     
     options:
-        -h: display this message
-        -i, --interval: the interval between attempts in seconds (default 60s)
-        -t, --timeout: the timeout in seconds (default 3600s)
+    -h: display this message
+    -i, --interval: the interval between attempts in seconds (default 60s)
+    -t, --timeout: the timeout in seconds (default 3600s)
     '''
 
 
